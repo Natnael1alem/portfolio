@@ -8,6 +8,9 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
+import telegramLight from "../../assets/telegram-light.svg";
+import telegramDark from "../../assets/telegram-dark.svg";
+
 import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
@@ -18,6 +21,7 @@ function Hero() {
   const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+  const telegramIcon = theme === "light" ? telegramLight : telegramDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -28,29 +32,35 @@ function Hero() {
           alt="Color mode icon"
           onClick={toggleTheme}
         />
-      
+
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="profic pic of natnael alem"
         />
       </div>
       <div className={styles.info}>
         <h1>
-          Harris
+          Natnael
           <br />
-          Johnsen
+          Alem
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>FullStack Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
+          <a href="https://x.com/NatnaelAlem6" target="_blank">
+            <img src={twitterIcon} alt="gwitter icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
-            <img src={githubIcon} alt="Github icon" />
+          <a href="https://t.me/natty204" target="_blank">
+            <img src={telegramIcon} alt="telegram icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+          <a href="https://github.com/Natnael1alem" target="_blank">
+            <img src={githubIcon} alt="github icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/natnael-alem-049872263"
+            target="_blank"
+          >
+            <img src={linkedinIcon} alt="linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
