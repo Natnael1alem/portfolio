@@ -13,17 +13,17 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com"
-          h3="Viberr"
-          p="Streaming App"
+          link="https://github.com/Natnael1alem/Notes-WebApp"
+          h3="Note Taking Website Application"
+          p="Node and EJS based Note taking web application, that include user authentication, and mongo Database"
         />
 
         <ProjectCard
           src={freshBurger}
-          link="https://github.com"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
-        />
+          link="https://github.com/Natnael1alem/Car-Dealership-Service-Management-System"
+          h3="Car Dealership Service Management System"
+          p="A Java car dealership system for sales, services, maintenance, insurance, and inventory management with MySQL and JavaFX integration."
+       />
 
         <ProjectCard
           src={hipsster}

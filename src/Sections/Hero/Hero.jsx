@@ -10,7 +10,6 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import telegramLight from "../../assets/telegram-light.svg";
 import telegramDark from "../../assets/telegram-dark.svg";
-
 import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
@@ -57,7 +56,7 @@ function Hero() {
             <img src={githubIcon} alt="github icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/natnael-alem-049872263"
+            href="https://www.linkedin.com/in/natnael-alem-4b41a0329/"
             target="_blank"
           >
             <img src={linkedinIcon} alt="linkedin icon" />
