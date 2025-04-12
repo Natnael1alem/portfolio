@@ -10,7 +10,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import telegramLight from "../../assets/telegram-light.svg";
 import telegramDark from "../../assets/telegram-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Natnael Fesseha CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
