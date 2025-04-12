@@ -6,6 +6,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+
 }
 
 [data-theme="dark"] {
@@ -22,7 +23,7 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin:  auto 60px;
 }
 
 #root {
