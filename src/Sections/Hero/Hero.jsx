@@ -41,10 +41,10 @@ function Hero() {
       <div className={styles.info}>
         <h1>
           Natnael
-          <br />
-          Alem
+          <br/>
+          Fesseha
         </h1>
-        <h2>FullStack Developer</h2>
+        <h2>Programmer</h2>
         <span>
           <a href="https://x.com/NatnaelAlem6" target="_blank">
             <img src={twitterIcon} alt="gwitter icon" />
@@ -62,9 +62,8 @@ function Hero() {
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+        <p className={styles.description}> 
+          a curious builder and developer. From early experiments to team-led projects and remote internships, I’ve always been driven by a love for learning and creating. This portfolio is a glimpse into that journey.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
