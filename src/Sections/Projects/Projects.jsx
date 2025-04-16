@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import notep from "../../assets/notep.webp";
+import notep from "../../assets/notep.png";
 import carp from '../../assets/carp.png';
 import expp from '../../assets/expp.png';
 import wotp from '../../assets/wotp.png';
